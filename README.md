@@ -1,4 +1,6 @@
 # JS-Fundamentals
 node 0-javascript_is_amazing.js
 
-7-multi_c.js
+console.log("C is fun");
+console.log("Python is cool");
+console.log("JavaScript is amazing");
