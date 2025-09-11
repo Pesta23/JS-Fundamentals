@@ -1,0 +1,12 @@
+if (process.argv.length < 3 || isNaN(parseInt(process.argv[2], 10))) {
+    console.log("Missing number of occurrences");
+} else {
+    const x = parseInt(process.argv[2], 10);
+    let count = 0;
+    let output = "";
+    while (count < x) {
+        output += "C is fun\n";
+        count++;
+    }
+    console.log(output.trim());
+}
